@@ -1,0 +1,52 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore database files (caso esteja utilizando SQLite ou outro banco local)
+*.db
+*.sqlite3
+
+# Ignore CSV, Excel, e outros arquivos temporários gerados
+*.csv
+*.xls
+*.xlsx
+
+# Ignore arquivos gerados por ferramentas de automação (caso existam)
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore arquivos de cache de pacotes
+*.egg-info/
+dist/
+build/
+
+# Ignore arquivos de configuração de ferramentas específicas
+config.json
+config.yaml
+
+# Caso esteja usando ferramentas como Selenium, ignore WebDriver
+chromedriver*
+geckodriver*
+
+# Caso esteja usando Docker, ignore arquivos temporários
+docker-compose.override.yml
+*.dockerfile
